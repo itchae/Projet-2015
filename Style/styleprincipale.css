@@ -2,20 +2,10 @@
 {
         padding : 0; /* pas de marge intérieure */
         margin : 0; /* ni extérieure */
-        list-style : none; /* supprime le style par défaut de la liste */
         line-height : 25px; /* définit une hauteur pour chaque élément */
         text-align : center; /* on centre le texte qui se trouve dans la liste */
         position : absolute;
-        width : 100%;
-       
-}
-
-#menu a /* Contenu des listes */
-{
-        display : block; /* on change le type d'élément, les liens deviennent des balises de type block */        
-        padding : 0; /* aucune marge intérieure */
-        text-decoration : none; 
-       
+        width : 100%;      
 }
 
 #menu li /*elements des listes*/   
@@ -24,6 +14,15 @@
         border : solid black 2px;
         width : 23%;
 }
+
+#menu a /* Contenu des listes */
+{
+        display : block; /* on change le type d'élément, les liens deviennent des balises de type block */        
+        padding : 0; /* aucune marge intérieure */
+        text-decoration : none; 
+
+}
+
 
 h1{
         text-align: center;
@@ -34,3 +33,6 @@ h1{
         position:absolute;
         margin: 20px ;
 }
+
+
+
