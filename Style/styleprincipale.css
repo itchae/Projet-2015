@@ -1,5 +1,5 @@
-#menu /* Liste */     
-{
+/* Liste */   
+#menu {
         padding : 0; /* pas de marge intérieure */
         margin : 0; /* ni extérieure */
         line-height : 25px; /* définit une hauteur pour chaque élément */
@@ -8,31 +8,37 @@
         width : 100%;      
 }
 
-#menu li /*elements des listes*/   
-{ 
+
+/*elements des listes*/  
+#menu li { 
         display : inline-block;
         border : solid black 2px;
-        width : 23%;
+        width : 22%;
 }
 
-#menu a /* Contenu des listes */
-{
+
+/* Contenu des listes */
+#menu a{ 
         display : block; /* on change le type d'élément, les liens deviennent des balises de type block */        
         padding : 0; /* aucune marge intérieure */
         text-decoration : none; 
-
 }
 
-
+/*titre de niveau 1*/
 h1{
         text-align: center;
-
 }
 
+/*div contenu*/
 #lala{
         position:absolute;
-        margin: 20px ;
+        margin-top: 40px;
+        padding: 10px;
+        border: solid black 1px;
+        border-radius: 10px;
+        width: 97%;
 }
+
 
 
 
