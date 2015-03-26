@@ -2,6 +2,7 @@
 #menu {
         padding : 0; /* pas de marge intérieure */
         margin : 0; /* ni extérieure */
+        list-style : none; /* supprime le style par défaut de la liste */
         line-height : 25px; /* définit une hauteur pour chaque élément */
         text-align : center; /* on centre le texte qui se trouve dans la liste */
         position : absolute;
@@ -25,6 +26,17 @@
 }
 
 /*titre de niveau 1*/
+
+       
+}
+
+#menu li /*elements des listes*/   
+{ 
+        display : inline-block;
+        border : solid black 2px;
+        width : 23%;
+}
+
 h1{
         text-align: center;
 }
@@ -38,7 +50,4 @@ h1{
         border-radius: 10px;
         width: 97%;
 }
-
-
-
 
