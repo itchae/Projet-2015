@@ -1,0 +1,8 @@
+@import "styleprincipale.css" screen;
+
+
+table, table td{
+        border:solid black 2px;
+        background-color: lightgrey;
+        border-collapse: collapse;
+}

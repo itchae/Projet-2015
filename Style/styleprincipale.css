@@ -53,7 +53,8 @@ h1{
 
 #bandeau{
         text-align: center;
-        position : relative;
+        position :relative;
+
         
 }
 
@@ -63,15 +64,5 @@ body{
 
 acronym{
         border-style: none;
-}
-
-table, table td{
-        border:solid black 2px;
-        background-color: lightgrey;
-        border-collapse: collapse;
-}
-
-body>div{
-        border:solid blue 2px;
 }
 
