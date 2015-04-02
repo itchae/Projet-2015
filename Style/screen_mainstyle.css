@@ -48,6 +48,7 @@ h1{
         border-radius: 10px;
         width: 97%;
         background-color: #AAB6CE;
+        overflow: hidden;
 }
 
 
