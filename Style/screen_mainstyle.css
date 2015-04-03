@@ -2,8 +2,9 @@
 #menu {
         padding : 0; /* pas de marge intérieure */
         margin : 0; /* ni extérieure */
+        margin-top: 20px;
         list-style : none; /* supprime le style par défaut de la liste */
-        line-height : 25px; /* définit une hauteur pour chaque élément */
+        line-height : 75px; /* définit une hauteur pour chaque élément */
         text-align : center; /* on centre le texte qui se trouve dans la liste */
         position : relative;
         width : 100%;      
@@ -15,6 +16,9 @@
         display : inline-block;
         border : solid black 2px;
         width : 18%;
+        vertical-align: middle;
+        font-size: 120%;
+        overflow: hidden;
 }
 
 
@@ -32,6 +36,10 @@
         display : inline-block;
         border : solid black 2px;
         width : 23%;
+}
+
+ul li:first-child{
+        line-height: 0px;
 }
 
 /*titre de niveau 1*/
@@ -67,3 +75,10 @@ acronym{
         border-style: none;
 }
 
+a:link{
+        color:blue;
+}
+
+a:visited{
+        color:purple;
+}

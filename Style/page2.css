@@ -6,3 +6,17 @@ table, table td{
         background-color: lightgrey;
         border-collapse: collapse;
 }
+
+#lala>img{
+	float:right;
+	clear: both;
+}
+
+h1{
+	margin-left:200px;
+}
+
+acronym[title="page suivante"]{
+	float: right;
+	clear: both;
+}
