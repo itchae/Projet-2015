@@ -82,3 +82,8 @@ a:link{
 a:visited{
         color:purple;
 }
+
+#logo{
+        float:right;
+        background-position: top right;      
+}
