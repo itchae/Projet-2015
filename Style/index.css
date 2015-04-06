@@ -8,3 +8,8 @@ a:hover{
 	font-size: 30px;
 	color:grey;
 }
+
+#menu{
+	margin-right: auto;
+	margin-left: auto;
+}
