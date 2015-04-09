@@ -123,11 +123,26 @@ acronym{
 
 
 
-/*titre de niveau 1*/
-h1{
+/*titre de niveau 1 dans la div contenu*/
+#contenu h1{
         text-align: center;
 }
 
+/*titre du site*/
+@font-face{
+  font-family :"robotica";
+  src : url('../Contenu/robotica.ttf');
+}
+
+
+body>div>h1{
+        text-align: center;
+        font-family: 'robotica';
+        font-size: 40px;
+        color:#34364B;
+}
+
+/*couleur du background*/
 body{
         background-color: #7DA8DF;
 }
