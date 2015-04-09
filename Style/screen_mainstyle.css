@@ -1,7 +1,10 @@
+/**********************************************************************************************************************************************
+*                                                             Modifications du menu                                                           *
+**********************************************************************************************************************************************/
 /* Liste */   
 #menu {
         padding : 0; /* pas de marge intérieure */
-        padding-top: 25px;
+        padding-top: 25px; /*marge en haut de 25px*/
         margin : 0; /* ni extérieure */
         margin-top: 20px;
         list-style : none; /* supprime le style par défaut de la liste */
@@ -15,11 +18,11 @@
 /*elements des listes*/  
 #menu li { 
         display : inline-block;
-        border : solid black 2px;
-        width : 18%;
-        vertical-align: middle;
-        font-size: 120%;
-        overflow: hidden;
+        border : solid black 2px; /*met une bordure noir solid de 2px*/
+        width : 18%; /*chaque case à une largeur de 18% de l'écran*/
+        vertical-align: middle; /*menu placé au milieu*/
+        font-size: 130%; /*Augmente la taille du texte du menu*/
+        overflow: hidden; 
 }
 
 
@@ -29,16 +32,19 @@
         padding : 0; /* aucune marge intérieure */
         text-decoration : none; 
 }
-       
-}
 
-#menu li /*elements des listes*/   
-{ 
-        display : inline-block;
-        border : solid black 2px;
-        width : 23%;
+#menu a:link{
+        color:black;
 }
+   
+#menu a:visited{
+        color:black;
+}    
 
+
+
+
+/*permet de fixer la taille de l'image homme dans le menu*/
 ul li:first-child{
         line-height: 0px;
 }
@@ -49,7 +55,7 @@ h1{
 }
 
 /*div contenu*/
-#lala{
+#contenu{
         position:relative;
         margin-top: 40px;
         margin-right: auto;
@@ -74,6 +80,7 @@ body{
         background-color: #99A3B7;
 }
 
+/*enleve les pointillés en bas des images de fleches*/
 acronym{
         border-style: none;
 }
