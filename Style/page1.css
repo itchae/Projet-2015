@@ -1,10 +1,5 @@
 @import "screen_mainstyle.css" screen;
 
-#lala>img{
-	float:right;
-	clear: both;
-}
-
 
 acronym[title="page suivante"]{
 	float: right;

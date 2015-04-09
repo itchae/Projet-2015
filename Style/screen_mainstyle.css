@@ -25,6 +25,11 @@
         overflow: hidden; 
 }
 
+/*apparence des puces*/
+li:before{
+        content: url("../image/puce.png");
+}
+
 
 /* Contenu des listes */
 #menu a{ 
@@ -32,6 +37,7 @@
         padding : 0; /* aucune marge intérieure */
         text-decoration : none; 
 }
+
 
 #menu a:link{
         color:black;
@@ -42,6 +48,7 @@
 }    
 
 /*permet de fixer la taille de l'image homme dans le menu*/
+
 ul li:first-child{
         line-height: 0px;
 }
