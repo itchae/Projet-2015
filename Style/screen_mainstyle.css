@@ -11,7 +11,8 @@
         line-height : 75px; /* définit une hauteur pour chaque élément */
         text-align : center; /* on centre le texte qui se trouve dans la liste */
         position : relative;
-        width : 90%;      
+        width : 90%;
+        border-radius: 25px;      
 }
 
 
@@ -57,7 +58,14 @@ li:before{
 
 
 ul li:first-child{
-        line-height: 0px;        
+        line-height: 0px; 
+        border-bottom-left-radius: 25px;
+        border-top-left-radius: 25px;    
+}
+
+ul li:last-child{
+        border-bottom-right-radius: 25px;
+        border-top-right-radius: 25px;    
 }
 
 ul li:first-child:before{
