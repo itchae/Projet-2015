@@ -11,18 +11,22 @@
         line-height : 75px; /* définit une hauteur pour chaque élément */
         text-align : center; /* on centre le texte qui se trouve dans la liste */
         position : relative;
-        width : 90%;      
+        width : 90%;
+        border-radius: 25px;      
 }
 
 
 /*elements des listes*/  
 #menu li { 
         display : inline-block;
-        border : solid black 2px; /*met une bordure noir solid de 2px*/
+        border-top: solid white 1px;
+        border-bottom: solid white 1px;
+        border-right: solid white 2px;
         width : 18%; /*chaque case à une largeur de 18% de l'écran*/
         vertical-align: middle; /*menu placé au milieu*/
         font-size: 130%; /*Augmente la taille du texte du menu*/
         overflow: hidden; 
+        background-color: #676F94;
 }
 
 /*apparence des puces*/
@@ -41,15 +45,15 @@ li:before{
 
 
 #menu a:link{
-        color:black;
+        color:lightgrey;
 }
    
 #menu a:visited{
-        color:black;
+        color:lightgrey;
 }    
 
 #menu a:hover{
-        color:grey;
+        color:white;
 }
 
 
@@ -57,7 +61,15 @@ li:before{
 
 
 ul li:first-child{
-        line-height: 0px;        
+        line-height: 0px; 
+        border-bottom-left-radius: 25px;
+        border-top-left-radius: 25px; 
+        border-left:solid white 2px;   
+}
+
+ul li:last-child{
+        border-bottom-right-radius: 25px;
+        border-top-right-radius: 25px;    
 }
 
 ul li:first-child:before{
@@ -117,7 +129,7 @@ h1{
 }
 
 body{
-        background-color: #99A3B7;
+        background-color: #879BFE;
 }
 
 
