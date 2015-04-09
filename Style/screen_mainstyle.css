@@ -20,6 +20,13 @@
         vertical-align: middle;
         font-size: 120%;
         overflow: hidden;
+
+}
+
+/*apparence des puces*/
+li:before{
+        content: url("../image/puce.png");
+
 }
 
 
@@ -29,19 +36,12 @@
         padding : 0; /* aucune marge intérieure */
         text-decoration : none; 
 }
-       
-}
-
-#menu li /*elements des listes*/   
-{ 
-        display : inline-block;
-        border : solid black 2px;
-        width : 23%;
-}
-
+ 
 ul li:first-child{
         line-height: 0px;
 }
+
+
 
 /*titre de niveau 1*/
 h1{
