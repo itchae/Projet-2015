@@ -48,6 +48,9 @@ li:before{
         color:black;
 }    
 
+#menu a:hover{
+        color:grey;
+}
 
 
 /*permet de fixer la taille de l'image home dans le menu*/

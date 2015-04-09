@@ -4,9 +4,6 @@ body{
 	position: absolute;
 }
 
-#menu a:hover{
-	color:grey;
-}
 
 #menu{
 	margin-right: auto;
