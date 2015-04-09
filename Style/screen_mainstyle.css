@@ -50,8 +50,9 @@ li:before{
 
 
 
-
 /*permet de fixer la taille de l'image home dans le menu*/
+
+
 ul li:first-child{
         line-height: 0px;        
 }
@@ -61,11 +62,27 @@ ul li:first-child:before{
 }
 
 
+/********************************************************************************************************************************************
+*                                                               Modification des images                                                     *
+********************************************************************************************************************************************/
 
-/*titre de niveau 1*/
-h1{
-        text-align: center;
+#logo{
+        float:right;
+        background-position: top right;  
+        margin-bottom: 10px;   
+        margin-right: 15px; 
 }
+
+/*enleve les pointillés en bas des images de fleches*/
+acronym{
+        border-style: none;
+}
+
+
+
+/****************************************************************************************************************************************
+*                                           Zone principale et bandeau de bas de page                                                   *
+****************************************************************************************************************************************/
 
 /*div contenu*/
 #contenu{
@@ -81,22 +98,27 @@ h1{
         overflow: hidden;
 }
 
-
 #bandeau{
         text-align: center;
-        position :relative;
+        position :relative;       
+}
 
-        
+
+
+
+
+
+/*titre de niveau 1*/
+h1{
+        text-align: center;
 }
 
 body{
         background-color: #99A3B7;
 }
 
-/*enleve les pointillés en bas des images de fleches*/
-acronym{
-        border-style: none;
-}
+
+
 
 a:link{
         color:blue;
@@ -106,9 +128,3 @@ a:visited{
         color:purple;
 }
 
-#logo{
-        float:right;
-        background-position: top right;  
-        margin-bottom: 10px;   
-        margin-right: 15px; 
-}
