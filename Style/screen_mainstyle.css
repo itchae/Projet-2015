@@ -28,12 +28,13 @@
 /*apparence des puces*/
 li:before{
         content: url("../image/puce.png");
+
 }
 
 
 /* Contenu des listes */
 #menu a{ 
-        display : block; /* on change le type d'élément, les liens deviennent des balises de type block */        
+        display : inline-block; /* on change le type d'élément, les liens deviennent des balises de type block */        
         padding : 0; /* aucune marge intérieure */
         text-decoration : none; 
 }
@@ -50,10 +51,13 @@ li:before{
 
 
 
-/*permet de fixer la taille de l'image homme dans le menu*/
->>>>>>> origin/master
+/*permet de fixer la taille de l'image home dans le menu*/
 ul li:first-child{
-        line-height: 0px;
+        line-height: 0px;        
+}
+
+ul li:first-child:before{
+        content: none;
 }
 
 
