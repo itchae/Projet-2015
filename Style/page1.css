@@ -6,6 +6,16 @@ acronym[title="page suivante"]{
 	clear: both;
 }
 
-p:first-letter{
-	margin-left: 2%;
+p:first-letter, span{
+	margin-left:3%;
+}
+
+
+#lois li:before{
+	content: none;
+}
+
+#lois li{
+	border:none;
+	line-height: normal;
 }
