@@ -4,8 +4,7 @@ body{
 	position: absolute;
 }
 
-a:hover{
-	font-size: 25px;
+#menu a:hover{
 	color:grey;
 }
 
