@@ -1,2 +1,10 @@
 @import "screen_mainstyle.css" screen;
 
+#contenu li:before{
+	content:none;
+}
+
+#contenu li{
+	border:none;
+	line-height: normal;
+}

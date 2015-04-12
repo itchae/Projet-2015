@@ -15,7 +15,6 @@
         border-radius: 25px;      
 }
 
-
 /*elements des listes*/  
 #menu li { 
         display : inline-block;
@@ -119,16 +118,13 @@ acronym{
 }
 
 
-
-
-
-
 /*titre de niveau 1 dans la div contenu*/
 #contenu h1{
         text-align: center;
 }
 
 /*titre du site*/
+/*Permet d'ajouter une police que les utilisateurs ne possèdent pas forcément, il s'agit de CSS 3*/
 @font-face{
   font-family :"robotica";
   src : url('../Contenu/robotica.ttf');
