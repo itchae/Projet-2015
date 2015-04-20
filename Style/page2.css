@@ -1,5 +1,10 @@
 @import "screen_mainstyle.css" screen;
 
+table{
+	display: inline-block;
+	border-radius: 10px;
+
+}
 
 table, table td{
         border:solid black 2px;
@@ -7,9 +12,22 @@ table, table td{
         border-collapse: collapse;
 }
 
+table, td, tr, th{
+	width: 25%;
+	text-align: center;
+}
 
+img[alt="graphique correspond au tableau sur la NSF"]{
+	display: inline-block;
+	margin-left: 5%;
+	margin-top: 8%;
+	position: absolute;
+	width: 40%;
+		
+}
 
 acronym[title="page suivante"]{
 	float: right;
 	clear: both;
 }
+
