@@ -2,8 +2,6 @@
 
 table{
 	display: inline-block;
-	border-radius: 10px;
-
 }
 
 table, table td{
@@ -32,3 +30,6 @@ acronym[title="page suivante"]{
 	clear: both;
 }
 
+body>div>h1{
+	margin-left: 10%;
+}

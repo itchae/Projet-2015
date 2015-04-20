@@ -19,3 +19,25 @@ p:first-letter, span{
 	border:none;
 	line-height: normal;
 }
+
+#theorie{
+	border:solid 1px;
+	float: left;
+	width: 50%;
+	padding-left: 5px;
+}
+
+#pratique{
+	border:solid 1px;
+	float: right;
+	width: 48%;
+	padding-left: 5px
+}
+
+div>h2:first-child{
+	text-align: center;
+}
+
+body>div>h1{
+	margin-left: 10%;
+}
