@@ -45,22 +45,22 @@
 
         <p><em>Un robot intelligent doit pouvoir au minimum connaitre ce qui l'entoure, le climat, savoir ce qu'est un chien, chat, adapter son langage lorsqu'il parle à un enfant... Ces informations seront utiles afin d'éviter tous comportements non désirés du robot (mettre les animaux dans le four, s'assoire sur les enfants...)</em></p>
 
-      <label>Nom : </label>
-      <input type="text"/>
+      <label >Nom : </label>
+      <input type="text" name="nom"/>
       <br/><br/>
 
       <label>Prénom : </label>
-      <input type="text"/>
+      <input type="text" name="prenom"/>
       <br/><br/>
 
       <label>Votre continent : </label>
-      <select>
-        <option>Europe</option>
-        <option>Asie</option>
-        <option>Amérique</option>
-        <option>Australie</option>
-        <option>Antartique</option>
-        <option>Tardland</option>
+      <select name="continent">
+        <option value="europe">Europe</option>
+        <option value="asie">Asie</option>
+        <option value="amerique">Amérique</option>
+        <option value="australie">Australie</option>
+        <option value="antartique">Antartique</option>
+        <option value="tardland">Tardland</option>
       </select>
       <br/><br/>
 
@@ -75,13 +75,13 @@
         </thead>
         <tr>
           <td>Animaux</td>
-          <td><input type="radio" name="animaux"/></td>
-          <td><input type="radio" name="animaux"/></td>
+          <td><input type="radio" name="animaux" value="oui"/></td>
+          <td><input type="radio" name="animaux" value="non"/></td>
         </tr>
         <tr>
           <td>Enfants</td>
-          <td><input type="radio" name="enfant"/></td>
-          <td><input type="radio" name="enfant"/></td>
+          <td><input type="radio" name="enfant" value="oui"/></td>
+          <td><input type="radio" name="enfant" value="non"/></td>
         </tr>
       </table>
     </fieldset>
@@ -95,19 +95,19 @@
         <legend>Généralités</legend>
 
       <label>Pseudo : </label>
-      <input type="text"/>
+      <input type="text" name="pseudo"/>
       <br/><br/>
       
       <label>Couleur : </label>
-      <select>
-        <option>Noir</option>
-        <option>Blanc</option>
-        <option>Rouge</option>
-        <option>Violet</option>
-        <option>Rose</option>
-        <option>Vert</option>
-        <option>Bleu</option>
-        <option>Jaune</option>
+      <select name="couleur">
+        <option value="noir">Noir</option>
+        <option value="blanc">Blanc</option>
+        <option value="rouge">Rouge</option>
+        <option value="violet">Violet</option>
+        <option value="rose">Rose</option>
+        <option value="vert">Vert</option>
+        <option value="bleu">Bleu</option>
+        <option value="jaune">Jaune</option>
       </select>
       <br/><br/>
       </fieldset>
@@ -115,10 +115,10 @@
       <fieldset>
         <legend>Fonctionnalités</legend>
       <label>Utilité</label><br/>
-      <label>Ménage</label><input type="checkbox"/><br/>
-      <label>Discussion</label><input type="checkbox"/><br/>
-      <label>Massage</label><input type="checkbox"/><br/>
-      <label>Aller en controle à sa place</label><input type="checkbox"/><br/>
+      <label>Ménage</label><input type="checkbox" name="menage"/><br/>
+      <label>Discussion</label><input type="checkbox" name="discussion"/><br/>
+      <label>Massage</label><input type="checkbox" name="massage"/><br/>
+      <label>Aller en controle à sa place</label><input type="checkbox" name="controle"/><br/>
 
 
       <!--
