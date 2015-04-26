@@ -24,6 +24,7 @@ p:first-letter, span{
 	float: left;
 	width: 48%;
 	padding-left: 6px;
+	padding-right: 6px;
 	background-color:#B5D5F9;
 	border-radius: 10px;
 }
@@ -32,6 +33,7 @@ p:first-letter, span{
 	float: right;
 	width: 48%;
 	padding-left: 6px;
+	padding-right: 6px;
 	background-color:#B5D5F9;
 	border-radius: 10px;
 
