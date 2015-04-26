@@ -21,17 +21,20 @@ p:first-letter, span{
 }
 
 #theorie{
-	border:solid 1px;
 	float: left;
-	width: 50%;
-	padding-left: 5px;
+	width: 48%;
+	padding-left: 6px;
+	background-color:#B5D5F9;
+	border-radius: 10px;
 }
 
 #pratique{
-	border:solid 1px;
 	float: right;
 	width: 48%;
-	padding-left: 5px
+	padding-left: 6px;
+	background-color:#B5D5F9;
+	border-radius: 10px;
+
 }
 
 div>h2:first-child{
@@ -39,5 +42,53 @@ div>h2:first-child{
 }
 
 body>div>h1{
-	margin-left: 10%;
+	margin-left:10%;
+	padding-top: 20px;
 }
+
+#bigdog{
+	width: 40%;
+}
+
+#bigdog+div{
+	margin-left: 42%;
+	margin-right: 2%;
+	margin-top: -30%;
+}
+
+#drone{
+	padding-top: 8%;
+	margin-right: 2%;
+	width: 40%;
+	float: right;
+}
+
+#drone+div{
+	margin-top: 10%;
+	padding-top: 5%;
+	padding-bottom: 2%;
+}
+
+#rosa{
+	width: 40%;
+	padding-bottom: 2%;
+}
+
+#rosa+div{
+	margin-left: 42%;
+	margin-right: 2%;
+	margin-top: -30%;
+}
+
+
+#nao{
+	width: 20%;
+}
+
+#nao+div{
+	margin-left: 22%;
+	margin-right: 2%;
+	margin-top: -22%;
+	padding-bottom: 15%;
+}
+

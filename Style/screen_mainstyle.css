@@ -28,11 +28,11 @@
         overflow: hidden; 
         background-color: #676F94;
 }
+
 /*apparence des puces*/
 li:before{
         content: url("../image/puce.png");
 }
-
 
 
 /* Contenu des listes */
@@ -110,7 +110,7 @@ acronym{
         border: solid black 1px;
         border-radius: 10px;
         width: 97%;
-        background-color: #AAAADA;
+        background-color: #AABAEA;
         overflow: hidden;
 }
 
