@@ -31,7 +31,7 @@
 
 /*apparence des puces*/
 li:before{
-        content: url("../image/puce.png");
+        content: url("../images/puce.png");
 }
 
 
