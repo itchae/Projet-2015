@@ -13,7 +13,6 @@
         text-align : center; /* on centre le texte qui se trouve dans la liste */
         position : relative;
         width : 100%;
-        border-radius: 25px;     
 }
 
 /*elements des listes*/  
@@ -22,11 +21,12 @@
         border-top: solid white 1px;
         border-bottom: solid white 1px;
         border-right: solid white 2px;
-        width : 18%; /*chaque case à une largeur de 18% de l'écran*/
+        width : 19.2%; /*chaque case à une largeur de 18% de l'écran*/
         vertical-align: middle; /*menu placé au milieu*/
         font-size: 130%; /*Augmente la taille du texte du menu*/
         overflow: hidden; 
-        background-color: #676F94;
+        background-color: #34364B;
+        float: left;
 }
 
 /*apparence des puces*/
@@ -40,6 +40,7 @@ li:before{
         display : inline-block; /* on change le type d'élément, les liens deviennent des balises de type block */        
         padding : 0; /* aucune marge intérieure */
         text-decoration : none; 
+        color:lightgrey;
 }
 
 
@@ -60,16 +61,10 @@ li:before{
 
 
 ul li:first-child{
-        line-height: 0px; 
-        border-bottom-left-radius: 25px;
-        border-top-left-radius: 25px; 
-        border-left:solid white 2px;   
+        line-height: 0px;  
 }
 
-ul li:last-child{
-        border-bottom-right-radius: 25px;
-        border-top-right-radius: 25px;    
-}
+
 
 ul li:first-child:before{
         content: none;
@@ -142,7 +137,7 @@ body>div>h1{
 
 /*couleur du background*/
 body{
-        background-color: #7DA8DF;
+        background-color: lightgrey;
 }
 
 
@@ -156,3 +151,8 @@ a:visited{
         color:purple;
 }
 
+body:first-child{
+    width:100%;
+    margin:0;
+    padding: 0;
+}
