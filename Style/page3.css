@@ -1,11 +1,5 @@
 @import "screen_mainstyle.css" screen;
 
-
-acronym[title="page suivante"]{
-	float: right;
-	clear: both;
-}
-
 body>div>h1{
 	margin-left:10%;
 	padding-top: 20px;

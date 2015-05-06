@@ -1,36 +1,40 @@
 @import "screen_mainstyle.css" screen;
 
-table{
-	display: inline-block;
+caption{
+	border-top:solid black 2px;
+	border-left:solid black 2px;
+	border-right:solid black 2px;
+	background-color: #CFCFCF;
 }
 
 table, table td{
         border:solid black 2px;
-        background-color: lightgrey;
+        background-color: #CFCFCF;
         border-collapse: collapse;
+        text-align: center;
 }
 
-table, td, tr, th{
-	width: 25%;
-	text-align: center;
+#table1,td,tr,th{
+	width: 30%;
 }
+
+#table2{
+	width: 20%;
+}
+
 
 
 img[alt="graphique correspond au tableau sur la NSF"]{
-	display: inline-block;
-	margin-left: 5%;
-	margin-top: 8%;
-	position: absolute;
-	width: 40%;
-		
-}
-
-acronym[title="page suivante"]{
-	float: right;
-	clear: both;
+	margin-left: 35%;
+	margin-top: -40%;
+	margin-bottom: 10%;
 }
 
 body>div>h1{
 	margin-left:10%;
 	padding-top: 20px;
+}
+
+p:first-letter{
+	margin-left: 3%;
 }

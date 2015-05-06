@@ -1,11 +1,6 @@
 @import "screen_mainstyle.css" screen;
 
 
-acronym[title="page suivante"]{
-	float: right;
-	clear: both;
-}
-
 p:first-letter, span{
 	margin-left:3%;
 }
@@ -94,3 +89,9 @@ body>div>h1{
 	padding-bottom: 15%;
 }
 
+blockquote{
+	font-style: italic;
+	border-left: 5px solid #B4FFA6;
+	padding-left: 8px;
+
+}
