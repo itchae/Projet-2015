@@ -1,6 +1,26 @@
 /**********************************************************************************************************************************************
+*                                                             Modifications du titre                                                          *
+**********************************************************************************************************************************************/
+
+/* Permet d'ajouter une police que les utilisateurs ne possèdent pas forcément, il s'agit de CSS3 */
+@font-face{
+  font-family :"robotica";
+  src : url('../Contenu/robotica.ttf');
+}
+
+/* modifie l'apparence du titre principale su site */
+body>div>h1{
+    text-align: center;
+    font-family: 'robotica';
+    font-size: 40px;
+    color:#34364B;
+}
+
+
+/**********************************************************************************************************************************************
 *                                                             Modifications du menu                                                           *
 **********************************************************************************************************************************************/
+
 /* Liste */   
 #menu {
         display: inline-block;
@@ -77,16 +97,13 @@ ul li:first-child:before{
 
 
 /********************************************************************************************************************************************
-*                                                               Modification des images                                                     *
+*                                                            Modification des images                                                        *
 ********************************************************************************************************************************************/
-
 #logo{
         float:right;
-        background-position: top right;  
-        margin-bottom: 10px;   
-        margin-right: 15px; 
+        margin-right: 15px;
+        margin-top: -8%; 
         width: 10%;
-        
 }
 
 /*enleve les pointillés en bas des images de fleches*/
@@ -97,8 +114,12 @@ acronym{
 
 
 /****************************************************************************************************************************************
-*                                           Zone principale et bandeau de bas de page                                                   *
+*                                                 Zone principale et bandeau de bas de page                                             *
 ****************************************************************************************************************************************/
+/*couleur du background*/
+body{
+        background-color: #7DA8DF;
+}
 
 /*div contenu*/
 #contenu{
@@ -112,6 +133,23 @@ acronym{
         width: 97%;
         background-color: #AABAEA;
         overflow: hidden;
+        color: black;
+}
+
+/*titre de niveau 1 dans la div contenu*/
+#contenu h1{
+        text-align: center;
+        text-decoration: underline;
+        font-weight: normal;
+}
+
+h2{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 18px;
 }
 
 #bandeau{
@@ -120,33 +158,20 @@ acronym{
 }
 
 
-/*titre de niveau 1 dans la div contenu*/
-#contenu h1{
-        text-align: center;
+/****************************************************************************************************************************************
+*                                                              Flèches de Navigation et liens                                           *
+****************************************************************************************************************************************/
+
+acronym[title="page suivante"]{
+    float: right;
+    clear: both;
 }
 
-/*titre du site*/
-/*Permet d'ajouter une police que les utilisateurs ne possèdent pas forcément, il s'agit de CSS 3*/
-@font-face{
-  font-family :"robotica";
-  src : url('../Contenu/robotica.ttf');
+acronym[titre="page précédente"]{
+    float: left;
+    clear: both;
+
 }
-
-
-body>div>h1{
-    text-align: center;
-    font-family: 'robotica';
-    font-size: 40px;
-    color:#34364B;
-}
-
-/*couleur du background*/
-body{
-        background-color: #7DA8DF;
-}
-
-
-
 
 a:link{
         color:blue;
