@@ -111,10 +111,6 @@ acronym{
 /****************************************************************************************************************************************
 *                                                 Zone principale et bandeau de bas de page                                             *
 ****************************************************************************************************************************************/
-/*couleur du background*/
-body{
-        background-color: #7DA8DF;
-}
 
 /*div contenu*/
 #contenu{
@@ -123,35 +119,39 @@ body{
         margin-right: auto;
         margin-left: auto;
         padding: 10px;
-        border: solid black 1px;
+        border: solid #333333 1px;
         border-radius: 10px;
         width: 95%;
         background-color: #AABAEA;
         overflow: hidden;
-        color: black;
 }
 
 /*titre de niveau 1 dans la div contenu*/
 #contenu h1{
         text-align: center;
-        text-decoration: underline;
-        font-weight: normal;
+        font-weight: bold;
+        color: #34364B;
+        font-size: 35px;
 }
 
+
+/*Titre de niveau 2*/
 h2{
     font-style: italic;
     text-decoration: underline;
 }
 
+/*Titre de niveau 3*/
 h3{
     font-size: 18px;
 }
 
 
-/*couleur du background*/
+/*Selectionne le body*/
 body{
         background-color: lightgrey;
         margin : 0;
+        color:#333333;
 }
 
 #bandeau{
