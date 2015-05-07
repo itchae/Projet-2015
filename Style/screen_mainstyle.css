@@ -182,9 +182,3 @@ a:link{
 a:visited{
         color:black;
 }
-
-body:first-child{
-    width:100%;
-    margin:0;
-    padding: 0;
-}
