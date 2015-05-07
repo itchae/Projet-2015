@@ -16,22 +16,27 @@ p:first-letter, span{
 }
 
 #theorie{
-	float: left;
-	width: 48%;
+	display: table-cell;
+	width: 40%;
 	padding-left: 6px;
 	padding-right: 6px;
 	background-color:#C9D3E6;
 	border-radius: 10px;
 }
 
+#espace{
+	display: table-cell;
+	width: 1%;
+
+}
+
 #pratique{
-	float: right;
-	width: 48%;
+	display: table-cell;
+	width: 40%;
 	padding-left: 6px;
 	padding-right: 6px;
 	background-color:#C9D3E6;
 	border-radius: 10px;
-
 }
 
 div>h2:first-child{
