@@ -9,6 +9,7 @@
 	line-height: normal;
 }
 
+
 body>div>h1{
 	margin-left:10%;
 	padding-top: 20px;
@@ -21,3 +22,4 @@ a:visited{
 a:link{
 	color:black;
 }
+
