@@ -122,7 +122,7 @@ acronym{
         border: solid #333333 1px;
         border-radius: 10px;
         width: 95%;
-        background-color: #AABAEA;
+        background-color: #B7C0D2;
         overflow: hidden;
 }
 
@@ -149,7 +149,7 @@ h3{
 
 /*Selectionne le body*/
 body{
-        background-color: lightgrey;
+        background-color: #EDF7F2;
         margin : 0;
         color:#333333;
 }
@@ -176,11 +176,11 @@ acronym[titre="page précédente"]{
 }
 
 a:link{
-        color:blue;
+        color:grey;
 }
 
 a:visited{
-        color:purple;
+        color:black;
 }
 
 body:first-child{
