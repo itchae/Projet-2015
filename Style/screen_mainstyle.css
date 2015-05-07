@@ -1,5 +1,5 @@
 /**********************************************************************************************************************************************
-*                                                             Modifications du titre                                                          *
+*                                                             Modifications du titre en haut                                                       *
 **********************************************************************************************************************************************/
 
 /* Permet d'ajouter une police que les utilisateurs ne possèdent pas forcément, il s'agit de CSS3 */
@@ -21,7 +21,7 @@ body>div>h1{
 *                                                             Modifications du menu                                                           *
 **********************************************************************************************************************************************/
 
-/* Liste */   
+/* Liste du menu */   
 #menu {
         display: inline-block;
         padding : 0; /* pas de marge intérieure */
@@ -63,18 +63,24 @@ li:before{
         color:lightgrey;
 }
 
-
+/*lien lorsque pas visité*/
 #menu a:link{
         color:lightgrey;
 }
-   
+
+/*lien lorsque visité*/  
 #menu a:visited{
         color:lightgrey;
 }    
 
-#menu a:hover{
-        color:white;
+#menu li:hover a{
+        color:#34364B;
 }
+
+#menu li:hover{
+    background-color: #B7C0D2;
+}
+
 
 
 /*permet de fixer la taille de l'image home dans le menu*/
@@ -149,7 +155,7 @@ h3{
 
 /*Selectionne le body*/
 body{
-        background-color: #EDF7F2;
+        background-color: #E3E7ED;
         margin : 0;
         color:#333333;
 }
