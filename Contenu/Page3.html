@@ -112,15 +112,25 @@
         <option value="jaune">Jaune</option>
       </select>
       <br/><br/>
+
+      <label>Aspect : </label>
+         <select name="couleur">
+        <option value="humanoide">Humanoïde</option>
+        <option value="alien">Alien</option>
+        <option value="robotique">Robotique</option>
+        <option value="animal">Animal</option>
+      </select>
+      <br/><br/>
+
       </fieldset>
 
       <fieldset>
-        <legend>Fonctionnalités</legend>
+        <legend>Fonctionnalités (attention plus vous choisirez d'utilité, plus il coutera chère !)</legend>
       <label>Utilité</label><br/>
-      <label>Ménage</label><input type="checkbox" name="menage"/><br/>
-      <label>Discussion</label><input type="checkbox" name="discussion"/><br/>
-      <label>Massage</label><input type="checkbox" name="massage"/><br/>
-      <label>Aller en controle à sa place</label><input type="checkbox" name="controle"/><br/>
+      <input type="checkbox" name="menage"/><label>Ménage</label><br/>
+      <input type="checkbox" name="discussion"/><label>Discussion</label><br/>
+      <input type="checkbox" name="jouer"/><label>Jouer</label><br/>
+      <input type="checkbox" name="controle"/><label>Aller en controle à sa place</label><br/>
 
 
       <!--
@@ -149,8 +159,11 @@
       </select>
     -->
     </fieldset>
-    </form>
+    <input type="submit" value="Envoyer" />
+    <input type="reset" value="Effacer"/>
 
+    </form>
+    
 	
 	<!--Navigation-->
     <acronym title="page précédente"><a href="./page2.html"><img src="../images/pre.png" alt="pre"/></a></acronym>

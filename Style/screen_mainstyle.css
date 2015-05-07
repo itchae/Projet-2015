@@ -125,7 +125,7 @@ body{
         padding: 10px;
         border: solid black 1px;
         border-radius: 10px;
-        width: 97%;
+        width: 95%;
         background-color: #AABAEA;
         overflow: hidden;
         color: black;
@@ -151,6 +151,7 @@ h3{
 /*couleur du background*/
 body{
         background-color: lightgrey;
+        margin : 0;
 }
 
 #bandeau{
