@@ -9,6 +9,7 @@
       <link rel="icon" type="image/png" href="../images/favicon.png"/>
       <link rel="stylesheet" media="screen" type="text/css" href="../style/page3.css" title="page3"/>
       <link rel="stylesheet" media="print" type="text/css" href="../style/print_mainstyle.css" title="page3"/>
+      <script type="application/javascript" src="../javascript/formulaire.js" ></script>
    </head>   
    <body>
 
@@ -43,7 +44,7 @@
     <h1>Commandez votre robot intelligent idéale</h1>
 <!--Partie 1 formulaire-->
     <h2>Propriétaire</h2>
-    <form action="http://10.16.21.1/~salayran/traitement.php">
+    <form action="http://10.16.21.1/~salayran/traitement.php" name="formulaire">
       <fieldset>
         <legend>Information</legend>
 
@@ -127,10 +128,10 @@
       <fieldset>
         <legend>Fonctionnalités (attention plus vous choisirez d'utilité, plus il coutera chère !)</legend>
       <label>Utilité</label><br/>
-      <input type="checkbox" name="menage"/><label>Ménage</label><br/>
-      <input type="checkbox" name="discussion"/><label>Discussion</label><br/>
-      <input type="checkbox" name="jouer"/><label>Jouer</label><br/>
-      <input type="checkbox" name="controle"/><label>Aller en controle à sa place</label><br/>
+      <input type="checkbox" name="utilité" value="Ménage"/><label>Ménage</label><br/>
+      <input type="checkbox" name="utilité" value="Discussion"/><label>Discussion</label><br/>
+      <input type="checkbox" name="utilité" value="Jouer"/><label>Jouer</label><br/>
+      <input type="checkbox" name="utilité" value="Allez en controle à sa place"/><label>Aller en controle à sa place</label><br/>
 
 
       <!--
@@ -162,6 +163,7 @@
     <p>
     <input type="submit" name="submit" value="Envoyer"/>
     <input type="reset" name="reset" value="Effacer"/>
+    <button type="button" name="validité" onclick="ValidAll()">Validité</button>
   </p>
 
     </form>
@@ -177,7 +179,7 @@
     <p id="bandeau">
       <a href="mailto:floriancornet@hotmail.fr">
       <img src="../images/contactez-nous.jpg" alt="Bandeau bas de page" />
-      </a>   
+      </a> 
     </p>
 
 

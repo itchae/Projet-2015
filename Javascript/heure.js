@@ -15,11 +15,11 @@ function afficherheure(){
   minute=d.getMinutes();
   seconde=d.getSeconds();
   
-  tm=""+nombre(heure)+":";
-  tm+=nombre(minute)+":";
-  tm+=nombre(seconde);
+  hco=""+nombre(heure)+":";
+  hco+=nombre(minute)+":";
+  hco+=nombre(seconde);
   
-  return tm;
+  return hco;
 }
 
 function heure(){
