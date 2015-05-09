@@ -7,9 +7,14 @@
       <title>Commandez !</title>
       <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8"/>
       <link rel="icon" type="image/png" href="../images/favicon.png"/>
+      <link rel="stylesheet" media="screen" type="text/css" href="../style/screen_mainstyle.css" id="SP" title="page3"/>
       <link rel="stylesheet" media="screen" type="text/css" href="../style/page3.css" title="page3"/>
       <link rel="stylesheet" media="print" type="text/css" href="../style/print_mainstyle.css" title="page3"/>
+      <link rel="alternate stylesheet" media="screen" type="text/css" href="../style/screen_altstyle.css" title="alt_page3"/>
+      <link rel="alternate stylesheet" media="screen" type="text/css" href="../style/page3.css" title="alt_page3"/>
+      <link rel="alternate stylesheet" media="print" type="text/css" href="../style/print_altstyle.css" title="alt_page3"/>
       <script type="application/javascript" src="../javascript/formulaire.js" ></script>
+      <script type="application/javascript" src="../javascript/bouton.js" ></script>
    </head>   
    <body>
 
@@ -40,11 +45,12 @@
 	
 	<!--Contenu-->
   <div id="contenu">
-
     <h1>Commandez votre robot intelligent idéale</h1>
+    <button id="changerstyle" onclick="changerStyle('../style/screen_altstyle.css');">Changer de style
+    </button> 
 <!--Partie 1 formulaire-->
     <h2>Propriétaire</h2>
-    <form action="http://10.16.21.1/~salayran/traitement.php" name="formulaire">
+    <form action="http://10.16.21.1/~salayran/traitement.php" id="formulaire">
       <fieldset>
         <legend>Information</legend>
 
@@ -126,7 +132,8 @@
       </fieldset>
 
       <fieldset>
-        <legend>Fonctionnalités (attention plus vous choisirez d'utilité, plus il coutera chère !)</legend>
+        <legend>Fonctionnalités <em>(attention plus vous choisirez d'utilité, plus il coutera chère !)</em>
+        </legend>
       <label>Utilité</label><br/>
       <input type="checkbox" name="utilité" value="Ménage"/><label>Ménage</label><br/>
       <input type="checkbox" name="utilité" value="Discussion"/><label>Discussion</label><br/>

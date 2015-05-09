@@ -7,8 +7,13 @@
       <title>Webographie</title>
       <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8"/>
       <link rel="icon" type="image/png" href="../images/favicon.png"/>
+      <link rel="stylesheet" media="screen" type="text/css" href="../style/screen_mainstyle.css" id="SP" title="page4"/>
       <link rel="stylesheet" media="screen" type="text/css" href="../style/page4.css" title="page4"/>
       <link rel="stylesheet" media="print" type="text/css" href="../style/print_mainstyle.css" title="page4"/>
+      <link rel="alternate stylesheet" media="screen" type="text/css" href="../style/screen_altstyle.css" title="alt_page4"/>
+      <link rel="alternate stylesheet" media="screen" type="text/css" href="../style/page4.css" title="alt_page4"/>
+      <link rel="alternate stylesheet" media="print" type="text/css" href="../style/print_altstyle.css" title="alt_page4"/>
+      <script type="application/javascript" src="../javascript/bouton.js" ></script>
    </head>
    <body>
 
@@ -40,7 +45,9 @@
   	<!--Contenu-->
     <div id="contenu">
       <h1>Webographie</h1>
-        <h2>Liens utiles</h2>
+      <button id="changerstyle" onclick="changerStyle('../style/screen_altstyle.css');">Changer de style
+    </button> 
+    <h2>Liens utiles</h2>
   	 <ul>
         <li>Définitions
            <ul>
@@ -48,7 +55,7 @@
                 <a href="http://fr.wikipedia.org/wiki/Intelligence_artificielle">Wikipédia</a>
               </li>
               <li>
-                <a href="http://www.intelligenceartificielle.fr/">Site francophone sur l'IA</a>
+                <a href="http://www.intelligenceartificielle.fr/"><strong>Site francophone sur l'IA</strong></a>
               </li>
            </ul>
          </li>
@@ -65,12 +72,13 @@
       <li>Isaac Asimov
         <ul>
           <li>
-            <a href="http://monot.jc.pagesperso-orange.fr/divers/decouvr.htm">Site sur Isaac Asimov
+            <a href="http://monot.jc.pagesperso-orange.fr/divers/decouvr.htm"><strong>Site sur Isaac Asimov
+            </strong>
             </a>
           </li>
         </ul>
       </li>
-      <li>Statistique
+      <li>Statistiques
         <ul>
           <li>
             <a href="https://intelligence.org/2014/01/28/how-big-is-ai/">Evolution des recherches sur les IA</a>
@@ -79,8 +87,34 @@
       </li>
     </ul>
 
-      <h2>Quelques liens utiles</h2>
-      
+      <h2>Pour allez plus loin ...</h2>
+      <p class="list">Voici une liste de films de science fiction traitant de l'IA</p>
+      <ul>  
+        <li>A.I. Intelligence Artificielle</li>
+        <li>L'odyssée de l'espace</li>
+        <li>Matrix (Trilogie)</li>
+        <li>Tron l'héritage</li>
+        <li>IRobot</li>
+      </ul>
+      <p class="list">Voici une liste d'oeuvres d'Isaac Asimov</p>
+      <ul>
+        <li>Recueils de nouvelles
+          <ul>
+            <li>Les Robots, 1967</li>
+            <li>Un défilé de robots, 1967</li>
+            <li>Nous les robots, 1982</li>
+            <li>Le Robot qui rêvait, 1988</li>
+          </ul>
+        </li>
+        <li>Romans
+          <ul>
+            <li>Les Cavernes d'acier, 1956</li>
+            <li>Face aux feux du soleil, 1961</li>
+            <li>Les Robots de l'aubre, 1984</li>
+            <li>Les Robots de l'Empire, 1986</li>
+          </ul>
+        </li>
+      </ul>
   	
   	<!--Navigation-->
      <acronym title="page précédente"><a href="page3.html"><img src="../images/pre.png" alt="pre"/></a></acronym>

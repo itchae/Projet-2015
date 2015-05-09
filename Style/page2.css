@@ -1,5 +1,3 @@
-@import "screen_mainstyle.css" screen;
-
 caption{
 	border-top:solid black 2px;
 	border-left:solid black 2px;
@@ -21,8 +19,6 @@ table, table td{
 #table2{
 	width: 20%;
 }
-
-
 
 img[alt="graphique correspond au tableau sur la NSF"]{
 	margin-left: 35%;

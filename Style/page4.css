@@ -1,5 +1,3 @@
-@import "screen_mainstyle.css" screen;
-
 #contenu li:before{
 	content:none;
 }
@@ -9,5 +7,11 @@
 	line-height: normal;
 }
 
+.list{
+	text-decoration: underline;
+}
 
-
+li a strong{
+	color:black;
+	text-decoration: underline;
+}

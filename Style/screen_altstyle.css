@@ -12,8 +12,8 @@
 body>div>h1{
     text-align: center; /*centre le bloc h1 au milieu de la page*/
     font-family: 'robotica'; /*change la police du titre pour robotica*/
-    font-size: 40px; /*change la taille de la police*/
-    color:#34364B;  /*change la couleur de la police*/
+    font-size: 40pt; /*change la taille de la police*/
+    color:#F3C4CC;  /*change la couleur de la police*/
 }
 
 
@@ -93,20 +93,17 @@ ul li:first-child:before{
 }
 
 #changerstyle{
-    float: right;
-    margin-left: 90%;
-    margin-top: -6%;
+    display: none;
 }
-
 
 /********************************************************************************************************************************************
 *                                                            Modification des images                                                        *
 ********************************************************************************************************************************************/
 #logo{
-        position: fixed;
-        margin-left: 88%;
-        margin-top: -7%; 
-        width: 10%;
+    float: left;
+    margin-left: 10px;
+    margin-top: -8%;
+    width: 10%;
 }
 
 /*enleve les pointillés en bas des images de fleches*/
@@ -130,16 +127,15 @@ acronym{
         border: solid #333333 1px;
         border-radius: 10px;
         width: 95%;
-        background-color: #B7C0D2;
-        overflow: hidden;
+        background-color: #F3C4CC;
 }
 
 /*titre de niveau 1 dans la div contenu*/
 #contenu h1{
         text-align: center;
         font-weight: bold;
-        color: #34364B;
-        font-size: 35px;
+        color: #B40404;
+        font-size: 35pt;
 }
 
 
@@ -151,15 +147,16 @@ h2{
 
 /*Titre de niveau 3*/
 h3{
-    font-size: 18px;
+    font-size: 20;
 }
 
 
 /*Selectionne le body*/
 body{
-        background-color: #E3E7ED;
+        background-color: #7A0033;
         margin : 0;
-        color:#333333;
+        color:#B40404;
+        font-size: 18pt;
 }
 
 /*Creer un alinéa de 3% de la page*/
@@ -168,8 +165,8 @@ p:first-letter, span{
 }
 
 #bandeau{
-        text-align: center;
-        position :relative;       
+    margin-left: 30%;
+    border:none; /*problème avec l'image, si on met une bordure elle est beaucoup trop grande par rapport à l'image*/
 }
 
 

@@ -1,14 +1,15 @@
 function TextValid(){
+	var formulaire=document.getElementById("formulaire");
 	
-	if (document.formulaire.nom.value==""){
+	if (formulaire.nom.value==""){
 		alert("vous avez oublié d'indiqué votre nom");
 		return false;
 	}
-	if (document.formulaire.prenom.value==""){
+	if (formulaire.prenom.value==""){
 		alert("Veuillez entrez votre prénom");
 		return false;
 	}
-	if (document.formulaire.pseudo.value==""){
+	if (formulaire.pseudo.value==""){
 		alert("Veuillez entrez le pseudo de votre futur robot");
 		return false;
 	}

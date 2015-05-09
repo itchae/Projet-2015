@@ -1,11 +1,3 @@
-@import "screen_mainstyle.css" screen;
-
-
-p:first-letter, span{
-	margin-left:3%;
-}
-
-
 #lois li:before{
 	content: none;
 }

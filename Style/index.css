@@ -1,6 +1,11 @@
-@import "screen_mainstyle.css" screen;
-
+/*Position absolu pour l'ensemble des éléments*/
 body{
 	position: absolute;
 }
 
+/*Pour ce qui en est des autres contraintes, à savoir :
+- l'apparence du titre du site,
+- l'apparence du menu horizontal avec des images commes puces,
+- l'apparence des liens survolés,
+Nous avons décidé de les mettres dans le style principale, commun à toutes 
+les pages afin de rendre le site plus homogène et esthétique.*/

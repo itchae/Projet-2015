@@ -1,11 +1,10 @@
 /* positionnement du logo */
 #logo{
-        float:right;
-        width: 15%;
-        position: absolute;
-        margin-left: 85%;
-        margin-top: -3%;
-    }
+        position: fixed;
+        margin-left: 88%;
+        margin-top: -7%; 
+        width: 10%;
+}
 
 /*disparition des éléments suivants*/
 #menu, #bandeau, acronym{
@@ -15,9 +14,11 @@
 /********************************************************************************************************************************************
 *                                              Apparence du texte dans les différents conteneurs                                            *
 ********************************************************************************************************************************************/
+body{
+	color: black;
+}
 
 div,p{
-	color : black;
 	font-size: 12pt;
 }
 
@@ -66,6 +67,10 @@ blockquote p:before{
 
 blockquote p:after{
 	content: close-quote;
+}
+
+#changerstyle{
+    display: none;
 }
 
 /********************************************************************************************************************************************
