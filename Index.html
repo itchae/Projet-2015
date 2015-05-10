@@ -9,10 +9,11 @@
       <link rel="icon" type="image/png" href="./images/favicon.png"/>
       <link rel="stylesheet" media="screen" type="text/css" href="./style/screen_mainstyle.css" id="SP" title="index"/>
       <link rel="stylesheet" media="screen" type="text/css" href="./style/index.css" title="index"/>
-      <link rel="stylesheet" media="print" type="text/css" href="./style/print_mainstyle.css" title="index"/>
-      <link rel="alternate stylesheet" media="screen" type="text/css" href="./style/screen_altstyle.css" title="alt_index"/>
+      <link rel="stylesheet" media="print" type="text/css" href="./style/print_mainstyle.css" id="PP" title="index"/>
+      <link rel="alternate stylesheet" media="screen" type="text/css" href="./style/screen_altstyle.css"  title="alt_index"/>
       <link rel="alternate stylesheet" media="screen" type="text/css" href="./style/index.css" title="alt_index"/>
-      <link rel="alternate stylesheet" media="print" type="text/css" href="./style/print_altstyle.css" title="alt_index"/>
+      <link rel="alternate stylesheet" media="print" type="text/css" href="./style/print_altstyle.css" 
+      title="alt_index"/>
       <script type="application/javascript" src="./javascript/heure.js" ></script>
       <script type="application/javascript" src="./javascript/bouton.js" ></script>
     </head>
@@ -40,7 +41,7 @@
 		<!--Contenu-->
 		<div id="contenu">
 			<h1>Présentation</h1>
-			<button id="changerstyle" onclick="changerStyle('./style/screen_altstyle.css');">Changer de style</button>
+			<button id="changerstyle" onclick="changerStyle('./style/screen_altstyle.css','./style/print_altstyle.css');">Changer de style</button>
 			<div>	
 				<p>Nous avons choisi comme sujet de projet les Intelligences Artificielles.
 				Nous avons longtemps cherché un sujet interessant mais amusant à traité à la fois,

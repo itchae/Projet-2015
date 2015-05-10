@@ -38,13 +38,13 @@ body>div>h1{
 /*elements des listes*/  
 #menu li { 
         display : inline-block;
-        border-top: solid white 1px;
-        border-bottom: solid white 1px;
-        border-right: solid white 2px;
+        border-top: solid black 1px;
+        border-bottom: solid black 1px;
+        border-right: solid black 2px;
         width : 19.2%; /*chaque case à une largeur de 19.2% de l'écran*/
         vertical-align: middle; /*menu placé au milieu*/
         font-size: 130%; /*Augmente la taille du texte du menu*/
-        background-color: #34364B;
+        background-color: #F3C4CC;
         float: left;
 }
 
@@ -59,17 +59,17 @@ li:before{
         display : inline-block; /* on change le type d'élément, les liens deviennent des balises de type block */        
         padding : 0; /* aucune marge intérieure */
         text-decoration : none; 
-        color:lightgrey;
+        color:#B40404;
 }
 
 /*lien lorsque pas visité*/
 #menu a:link{
-        color:lightgrey;
+        color:#B40404;
 }
 
 /*lien lorsque visité*/  
 #menu a:visited{
-        color:lightgrey;
+        color:#B40404;
 }    
 
 #menu li:hover a{
