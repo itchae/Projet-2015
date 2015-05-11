@@ -1,16 +1,20 @@
+/*permet d'enlever les puces devants les items des listes*/
 #contenu li:before{
 	content:none;
 }
 
+/*enlève les bordures et redimensionne les items*/
 #contenu li{
 	border:none;
 	line-height: normal;
 }
 
+/*souligne les éléments possédant la class "list"*/
 .list{
 	text-decoration: underline;
 }
 
+/*modifie l'apparence des éléments ciblé*/
 li a strong{
 	color:black;
 	text-decoration: underline;

@@ -1,14 +1,9 @@
-#lois li:before{
-	content: none;
-}
-
-#lois li{
-	border:none;
-	line-height: normal;
-}
+/**********************************************************************************************************************************************
+*                                                             Zone principale                                                                 *
+**********************************************************************************************************************************************/
 
 #theorie{
-	display: table-cell;
+	display: table-cell; /*permet de mettre le bloc sous forme de colonnes*/
 	width: 40%;
 	padding-left: 6px;
 	padding-right: 6px;
@@ -16,6 +11,7 @@
 	border-radius: 10px;
 }
 
+/*Cette division permet d'espacer les divs "théorie" et "pratique" l'un de l'autre*/
 #espace{
 	display: table-cell;
 	width: 1%;
@@ -23,7 +19,7 @@
 }
 
 #pratique{
-	display: table-cell;
+	display: table-cell; /*permet de mettre le bloc sous forme de colonnes*/
 	width: 40%;
 	padding-left: 6px;
 	padding-right: 6px;
@@ -35,6 +31,19 @@ div>h2:first-child{
 	text-align: center;
 }
 
+/*permet d'enlever les puces devant les items de la liste "lois"*/
+#lois li:before{
+	content: none;
+}
+
+/*enlève les bordures et redimensionne les items*/
+#lois li{
+	border:none;
+	line-height: normal;
+}
+
+
+/*Positionnement des images et des divsions contenant le texte qui leur sert de légende*/
 
 #bigdog{
 	width: 40%;
@@ -70,7 +79,6 @@ div>h2:first-child{
 	margin-top: -30%;
 }
 
-
 #nao{
 	width: 20%;
 }
@@ -82,6 +90,8 @@ div>h2:first-child{
 	padding-bottom: 15%;
 }
 
+
+/*Apparence du bloc de citation*/
 blockquote{
 	font-style: italic;
 	border-left: 5px solid #B4FFA6;

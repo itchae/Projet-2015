@@ -1,5 +1,11 @@
-form{
-	background: url(../images/fond.jpg);
+/**********************************************************************************************************************************************
+*                                                             Zone principale                                                                 *
+**********************************************************************************************************************************************/
+/*Apparences des titres*/
+#contenu h1{
+	color:#2E2E2E;
+	background-color: lightblue;
+	border-radius: 10px;
 }
 
 h2{
@@ -9,16 +15,17 @@ h2{
 	border-radius: 10px;
 }
 
-#contenu h1{
-	color:#2E2E2E;
-	background-color: lightblue;
-	border-radius: 10px;
+/*Permet de mettre une image de fond au formulaire*/
+form{
+	background: url(../images/fond.jpg);
 }
 
+/*changement de l'apparence des inputs lorsqu'ils ont le focus*/
 input:focus{
 	background-color: lightgrey;
 }
 
+/*changement de l'apparence des labels lorsqu'on clique dessus*/
 label:active{
 	color:red;
 }

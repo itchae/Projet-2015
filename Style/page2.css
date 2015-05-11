@@ -1,3 +1,7 @@
+/**********************************************************************************************************************************************
+*                                                           Propriétés des Tableaux                                                       *
+**********************************************************************************************************************************************/
+/*Options de l'entête*/
 caption{
 	border-top:solid black 2px;
 	border-left:solid black 2px;
@@ -5,6 +9,7 @@ caption{
 	background-color: #CFCFCF;
 }
 
+/*Options du tableaux 1 et de ses cellules*/
 table, table td{
         border:solid black 2px;
         background-color: #CFCFCF;
@@ -20,12 +25,9 @@ table, table td{
 	width: 20%;
 }
 
+/*positionnement de l'image associé au tableau 1*/
 img[alt="graphique correspond au tableau sur la NSF"]{
 	margin-left: 35%;
 	margin-top: -55%;
 	margin-bottom: 10%;
-}
-
-p:first-letter{
-	margin-left: 3%;
 }

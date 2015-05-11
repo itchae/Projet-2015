@@ -81,7 +81,6 @@ li:before{
 }
 
 
-
 /*permet de fixer la taille de l'image home dans le menu*/
 ul li:first-child{
         line-height: 0px;  
@@ -92,6 +91,7 @@ ul li:first-child:before{
         content: none;
 }
 
+/*cache le bouton de changement de style*/
 #changerstyle{
     display: none;
 }
@@ -99,6 +99,7 @@ ul li:first-child:before{
 /********************************************************************************************************************************************
 *                                                            Modification des images                                                        *
 ********************************************************************************************************************************************/
+/*positionne le logo*/
 #logo{
     float: left;
     margin-left: 10px;
@@ -110,8 +111,6 @@ ul li:first-child:before{
 acronym{
         border-style: none;
 }
-
-
 
 /****************************************************************************************************************************************
 *                                                 Zone principale et bandeau de bas de page                                             *
@@ -138,7 +137,6 @@ acronym{
         font-size: 35pt;
 }
 
-
 /*Titre de niveau 2*/
 h2{
     font-style: italic;
@@ -164,11 +162,11 @@ p:first-letter, span{
     margin-left:3%;
 }
 
+/*positionne le bandeau*/
 #bandeau{
     margin-left: 30%;
     border:none; /*problème avec l'image, si on met une bordure elle est beaucoup trop grande par rapport à l'image*/
 }
-
 
 /****************************************************************************************************************************************
 *                                                              Flèches de Navigation et liens                                           *
