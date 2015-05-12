@@ -73,6 +73,10 @@ blockquote p:after{
     display: none;
 }
 
+#divmenu{
+	display: none;
+}
+
 /********************************************************************************************************************************************
 *                                                          Apparence des tableaux                                                           *
 ********************************************************************************************************************************************/
@@ -112,3 +116,7 @@ img[alt="graphique correspond au tableau sur la NSF"]{
 	width: 30%;
 }
 
+img[alt="graphique correspondant au sondage"]{
+	margin-top: 5px;
+	border: solid black 1px;
+}

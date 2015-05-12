@@ -21,13 +21,22 @@ table, table td{
 	width: 30%;
 }
 
-#table2{
-	width: 20%;
-}
-
 /*positionnement de l'image associé au tableau 1*/
-img[alt="graphique correspond au tableau sur la NSF"]{
+img[alt="graphique correspondant au tableau sur la NSF"]{
 	margin-left: 35%;
 	margin-top: -55%;
 	margin-bottom: 10%;
+}
+
+#table2{
+	width: 25%;
+	margin-top: 5%;
+	margin-bottom: 6%;
+}
+
+img[alt="graphique correspondant au sondage"]{
+	position: absolute;
+	margin-left: 30%;
+	margin-top: -22%;
+
 }
