@@ -1,6 +1,5 @@
 function TextValid(){
-	var formulaire=document.getElementById("formulaire");
-	
+	formulaire = document.getElementById('formulaire');
 	if (formulaire.nom.value==""){
 		alert("vous avez oublié d'indiqué votre nom");
 		return false;
